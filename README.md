@@ -1,14 +1,10 @@
-# Project Setup Instructions
+# Sui Farm Coin - Decentralized Private Placement Platform
 
-Welcome to the project repository for the course **"Sui dApps with Move & React - Build Real Projects"**.
+Welcome to the Sui Farm Coin project repository. This project aims to build a decentralized, compliant, and intelligent private placement issuance and management platform.
 
-## About the Course
+## About This Project
 
-**Course Title:** Sui dApps with Move & React - Build Real Projects  
-**Description:** Hands-on Sui dApp development with Move and React. Create a voting system and a meme coin. Learn smart contracts coding.
-
-To get detailed instructions and learn about SUI and Move, enroll in the course: [Sui dApps with Move & React - Build Real Projects](https://academy.eincode.com/courses/sui-dapps-with-move-react-build-real-projects)
-
+**Goal:** To leverage blockchain technology, specifically on the Sui network, to reshape the traditional private equity industry by addressing its key pain points. We are developing a platform for seamless and transparent private placement processes.
 ---
 
 ## Project Structure
@@ -57,6 +53,5 @@ To get detailed instructions and learn about SUI and Move, enroll in the course:
 ## Additional Resources
 
 - Official SUI Documentation: [https://docs.sui.io](https://docs.sui.io)
-- Course Link: [https://academy.eincode.com/courses/sui-dapps-with-move-react-build-real-projects](https://academy.eincode.com/courses/sui-dapps-with-move-react-build-real-projects)
 
 Happy coding! 🚀
