@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useEffect} from "react";
 import { useTheme } from "./providers/theme/ThemeContext";
 import { NavigationProvider } from "./providers/navigation/NavigationProvider";
 import { useNavigation } from "./providers/navigation/NavigationContext";
@@ -21,7 +21,13 @@ const Pages: React.FC = () => {
 
 const App: React.FC = () => {
   const { darkMode }  = useTheme();
-
+  useEffect(() => {
+    if (darkMode) {
+      document.documentElement.classList.add('dark');
+    } else {
+      document.documentElement.classList.remove('dark');
+    }
+  }, [darkMode]);
   return (
     <NavigationProvider>
       <div className={`${darkMode ? "dark" : ""}`}>
